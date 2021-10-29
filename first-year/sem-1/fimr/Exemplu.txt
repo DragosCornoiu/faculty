@@ -1,0 +1,28 @@
+DINAMICA –
+Dinamica este partea mecanicii care se ocupă cu studiul mişcării corpurilor
+materiale, ţinând seama de forţele care acţionează asupra lor.
+Problema fundamentală în dinamică este de a determina legile de mişcare ale
+corpurilor, ţinând cont de forţele care acţionează asupra acestora. In unele cazuri, se
+pune problema inversă: de a determina forţele astfel ca mişcarea să fie cea dorită.
+Studiul mişcării începe cu cel al punctului material. Acesta este un corp de
+dimensiuni neglijabile, asimilat cu un punct geometric în care se concentrează o
+anumită masă. Problemele legate de mişcarea punctului material se vor trata în
+capitolul de dinamica punctului. In partea a doua vom studia sistemele de puncte
+materiale şi corpurile rigide, prezentând teoremele generale ce se vor aplica în acest
+caz. Ne vom referi şi la partea de mecanică analitică, utilă în studiul altor mişcări şi în
+special în teoria vibraţiilor care va fi ultima parte a acestei lucrări. In general, căutăm
+să exemplificăm teoria prin aplicaţii concrete care să contribuie la mai buna înţelegere
+a celor prezentate.
+Ca orice ştiinţă, Mecanica se bazează pe câteva principii fundamentale care
+nu pot fi complet demonstrate teoretic sau experimental, dar nici nu pot fi reduse la
+alte legi mai simple. Aceste principii pot fi uneori verificate.
+In general, mişcarea se studiază faţă de un sistem de referinţă inerţial. Prin
+sistem de referinţă inerţial se înţelege acel reper faţă de care un punct material izolat
+sau asupra căruia acţionează un sistem de forţe în echilibru, se găseşte în stare de
+repaus sau de mişcare rectilinie şi uniformă. Un corp rigid izolat sau asupra căruia
+acţionează un sistem de forţe în echilibru se găseşte faţă de un sistem de referinţă
+inerţial în stare de repaus sau de translaţie rectilinie şi uniformă.
+Un sistem de referinţă legat de pământ poate fi considerat inerţial pentru
+fenomene care se desfăşoară cu viteze mici în comparaţie cu viteza luminii, pentru
+fenomene care nu au o durată prea lungă şi se efectuează într-un domeniu relativ mic
+al spaţiului.
