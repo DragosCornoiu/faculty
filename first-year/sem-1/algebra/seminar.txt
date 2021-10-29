@@ -1,0 +1,73 @@
+SEMINAR s˘apt˘amˆana 2: Metoda lui Gauss
+0.1 SARCINI
+Ce ˆıncepe cu ,,putet¸i” este opt¸ional. Restul este ,,recomandat cu c˘aldur˘a”.
+• Putet¸i citi despre mai multe despre Gauss, unul dintre cei mai importanˆı matematicieni, supranumit Print¸ul matematicii.
+• Putet¸i citi teoria din cartea scris˘a ˆımpreun˘a cu dl. D˘aianu (vezi Bibliografia pe
+CV): pag. 21-25. O s˘a o discut˘am ¸si vineri la curs.
+• De citit exemplele rezolvate din cartea amintit˘a mai sus:
+exemplul 1, pag. 22 ¸si exemplul 2, pag. 23
+• De citit exercit¸iile rezolvate 1 (pag. 29) ¸si 2 (pag. 32)
+• De lucrat exercit¸iile 17 (pag. 44) ¸si 20 (pag. 45)
+•
+ˆIn plus, putet¸i citi exercit¸iile rezolvate mai jos, apoi rezolva exercit¸iile propuse.
+•
+ˆIn fine, rezolvat¸i ¸si ˆınc˘arcat¸i pe CV exercit¸iul pe care ˆıl avet¸i l˘asat tem˘a pe CV.
+0.2 EXERCIT¸ II REZOLVATE
+1. Rezolvat¸i sistemul de mai jos folosind metoda lui Gauss.
+
+
+
+x + y − 2z = 1
+2x − y + z = 2
+5x − y = 3
+Solut¸ie: Ne folosim de faptul c˘a ˆın prima ecuat¸ie coeficientul lui x este nenul (¸si
+anume 1) pentru a face 0 coeficientul lui x ˆın ultimele dou˘a ecuat¸ii. Din ecuat¸ia 2
+sc˘adem ecuat¸ia 1 ˆınmult¸it˘a cu 2, iar din ecuat¸ia 3 sc˘adem ecuat¸ia 1 ˆınmult¸it˘a cu
+5. Obt¸inem urm˘atorul sistem, echivalent cu cel init¸ial:
+
+
+
+x + y − 2z = 1
+− 3y + 5z = 0
+− 6y + 10z = −2
+Se cam vede deja c˘a ultimele dou˘a ecuat¸ii se bat cap ˆın cap, dar un algoritm
+presupune parcurgerea unor pa¸si, deci vom face abstract¸ie de cele observate.
+Ne folosim de faptul c˘a ˆın ecuat¸ia a doua coeficientul lui y este nenul. ˆIl alegem
+pe acest coeficient, −3, drept pivot ¸si ne folosim de el pentru a face coeficientul lui
+1
+y din ecuat¸ia a treia 0. Din ecuat¸ia 3 sc˘adem 3cuat¸ia 2 ˆınmult¸it˘a cu 2. Obt¸inem
+sistemul, echivalent,
+
+
+
+x + y − 2z = 1
+− 3y + 5z = 0
+0 = −2
+Analizˆand ultima ecuat¸ie a acestui sistem, vedem c˘a ea nu este ˆındeplinit˘a niciodat˘a, deci sistemul este incompatibil.
+A¸sa se va ˆıntˆampla mereu ˆın cazul unui sistem incompatibil: vom obt¸ine o ecuat¸ie
+de forma 0 = α, unde α este un num˘ar real nenul.
+ˆIntregul demers de mai sus putea fi exprimat prin operat¸ii la nivelul matricei extinse
+astfel:
+
+
+1 1 −2 1
+2 −1 1 2
+5 −1 0 3
+
+ ∼
+
+
+1 1 −2 1
+0 −3 5 0
+0 −6 10 −2
+
+ ∼
+
+
+1 1 −2 1
+0 −3 5 0
+0 0 0 −2
+
+
+Traducem ˆınapoi ultima matrice (forma scar˘a a matricei extinse a sistemului) ˆın
+termeni de sistem ¸si vedem c˘a sistemul obt¸inut este incompatibil.
