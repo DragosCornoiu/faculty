@@ -1,0 +1,16 @@
+(*cifre pare*)
+let  filter2 l  = 
+  let rec aux l rez = match l with
+  |[] -> rez
+  |h :: t when h mod 2 <> 0 -> aux  t rez 
+  |h :: t -> aux t (h::rez)
+  in aux l [];;
+
+filter2 l1;;
+
+  (*cifre mai mici decat 5  afisate de la dreapta la stanga*)
+let rec mic_5 l = match l with
+|[]->[]
+|h::t when h>5 -> mic_5 t
+|h::t-> h::mic_5 t;;
+mic_5 l1;;
